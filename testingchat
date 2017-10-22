@@ -1,0 +1,10 @@
+function addTen(aNumber){
+  let i;
+  for( i = 1; i <= 10; i++){
+    console.log(aNumber);
+    aNumber = aNumber + 1;
+    console.log(aNumber);
+  }
+}
+
+addTen(5);
